@@ -1,0 +1,810 @@
+<html
+  lang="en"
+  class="scroll-smooth"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./dist/output.css"
+    />
+  </head>
+
+  <body>
+    <header class="fixed w-full top-4 left-0">
+      <nav
+        class="w-[calc(100%-32px)] sm:w-[calc(100%-64px)] lg:w-fit bg-gradient-to-b from-neutral-50 to-slate-50 mx-auto flex flex-wrap items-center justify-between rounded-xl border border-slate-200 p-2 shadow-[rgba(0,0,0,0.05)_0px_0.5px_0.25px]"
+      >
+        <a
+          href="#"
+          class="font-medium text-xl lg:pr-4 text-slate-900 inline-flex items-center whitespace-nowrap"
+        >
+          <img
+            src="./assets/logo/Logo_Dark.svg"
+            alt="logo"
+            class="w-8 h-8 aspect-square mr-2.5"
+          />
+          Van Estates</a
+        >
+
+        <button
+          class="group lg:hidden flex flex-col justify-between w-12 h-8 px-2 py-1"
+        >
+          <span
+            class="w-full h-px bg-slate-400 origin-bottom-right transition"
+          ></span>
+          <span
+            class="w-full h-px bg-slate-400 origin-center transition"
+          ></span>
+          <span
+            class="w-full h-px bg-slate-400 origin-top-right transition"
+          ></span>
+        </button>
+
+        <fieldset
+          id="navList"
+          class="max-lg:w-full hidden lg:flex flex-col lg:flex-row"
+        >
+          <div
+            class="flex flex-col lg:flex-row items-start lg:items-center justify-center max-lg:mt-4 gap-px text-slate-600"
+          >
+            <a
+              href="#docs"
+              class="font-light max-lg:w-full max-lg:pl-2 px-4 py-2 hover:bg-slate-100 rounded-lg transition duration-150"
+              >Docs</a
+            >
+            <a
+              href="#features"
+              class="font-light max-lg:w-full max-lg:pl-2 px-4 py-2 hover:bg-slate-100 rounded-lg transition duration-150"
+              >Features</a
+            >
+            <a
+              href="#awards"
+              class="font-light max-lg:w-full max-lg:pl-2 px-4 py-2 hover:bg-slate-100 rounded-lg transition duration-150"
+              >Awards</a
+            >
+            <a
+              href="#schedule"
+              class="font-light max-lg:w-full max-lg:pl-2 px-4 py-2 hover:bg-slate-100 rounded-lg transition duration-150"
+              >Schedule</a
+            >
+            <a
+              href="#community"
+              class="font-light max-lg:w-full max-lg:pl-2 px-4 py-2 hover:bg-slate-100 rounded-lg transition duration-150"
+              >Community</a
+            >
+          </div>
+
+          <a
+            href=""
+            target="_blank"
+            class="max-lg:mt-4 max-lg:text-center lg:flex font-light lg:ml-4 cta-light__primary"
+            >Contact us</a
+          >
+        </fieldset>
+      </nav>
+    </header>
+
+    <main
+      id="hero"
+      class="p-4 sm:p-8 lg:p-16 pt-24 lg:pt-32 min-h-full w-full shadow-[rgba(148,163,184,0.25)_0_1px_0_0]"
+    >
+      <article
+        class="flex flex-wrap items-center justify-between max-w-7xl mx-auto"
+      >
+        <section
+          class="min-h-full w-full lg:w-[calc(50%-4rem)] lg:flex lg:flex-col justify-between"
+        >
+          <div>
+            <blockquote class="custom__badge font-light text-slate-600">
+              <span class="text-blue-400 font-light"> NEW! </span>
+              First deal get
+              <span class="text-blue-400"> 40% </span>
+              off
+            </blockquote>
+
+            <h1
+              class="mt-4 text-[2.25rem] sm:text-[3.75rem] lg:text-[2.25rem] xl:text-[3.75rem] leading-tight font-semibold"
+            >
+              Your Ultimate
+              <span class="text-sky-400">Real Estate</span> Partner
+            </h1>
+
+            <p
+              class="mt-8 text-slate-600 leading-relaxed sm:max-w-[75%] lg:max-w-none text-lg font-light"
+            >
+              We have years of experience in the industry and can guide you
+              through every step of the process, providing you with the support
+              and advice you need to make informed decisions.
+            </p>
+
+            <a
+              href="#"
+              class="group mt-8 inline-flex items-center cta-light__primary"
+              >Explore
+              <img
+                src="assets/logo/Arrow_Right_Light.svg"
+                alt=""
+                class="ml-1.5 w-4 h-4 group-hover:translate-x-1 transition"
+            /></a>
+          </div>
+
+          <div
+            class="flex flex-wrap max-lg:flex-col md:hidden lg:flex lg:flex-row mt-8 lg:mt-32 items-center max-lg:justify-center gap-4 font-light"
+          >
+            Trusted by
+            <fieldset class="flex flex-wrap justify-center gap-2">
+              <blockquote class="custom__badge">
+                <img
+                  src="assets/logo/Walmart.svg"
+                  alt=""
+                  class="h-6 object-fill object-center py-px"
+                />
+              </blockquote>
+
+              <blockquote class="custom__badge">
+                <img
+                  src="assets/logo/Amazon.svg"
+                  alt=""
+                  class="h-6 object-fill object-center py-[2px]"
+                />
+              </blockquote>
+
+              <blockquote class="custom__badge">
+                <img
+                  src="assets/logo/Google.svg"
+                  alt=""
+                  class="h-6 object-fill object-center py-px"
+                />
+              </blockquote>
+            </fieldset>
+          </div>
+        </section>
+
+        <section class="aspect-square w-full lg:w-1/2 max-lg:mt-12">
+          <img
+            src="./assets/img/Hero.png"
+            alt="hero"
+            class="w-full h-full object-fill object-top"
+          />
+        </section>
+
+        <section class="hidden md:flex lg:hidden mt-12 items-center font-light">
+          Trusted by
+          <fieldset class="ml-2 flex gap-2">
+            <blockquote class="custom__badge">
+              <img
+                src="assets/logo/Walmart.svg"
+                alt=""
+                class="h-6 object-fill object-center py-px"
+              />
+            </blockquote>
+
+            <blockquote class="custom__badge">
+              <img
+                src="assets/logo/Amazon.svg"
+                alt=""
+                class="h-6 object-fill object-center py-[2px]"
+              />
+            </blockquote>
+
+            <blockquote class="custom__badge">
+              <img
+                src="assets/logo/Google.svg"
+                alt=""
+                class="h-6 object-fill object-center py-px"
+              />
+            </blockquote>
+          </fieldset>
+        </section>
+      </article>
+    </main>
+
+    <article
+      id="docs"
+      class="mt-px p-4 sm:p-8 lg:p-16 pt-24 lg:pt-32 min-h-full w-full bg-slate-100"
+    >
+      <section class="max-w-7xl mx-auto">
+        <h1
+          class="mt-4 text-[2.25rem] sm:text-[3.75rem] lg:text-[2.25rem] xl:text-[3.75rem] leading-tight font-semibold"
+        >
+          Efficiently integrated <br />
+          property management
+        </h1>
+
+        <p
+          class="mt-8 text-slate-600 leading-relaxed sm:max-w-[75%] lg:max-w-[50%] text-lg font-light"
+        >
+          With efficiently integrated property management, we can ensure that
+          your property is always in the best condition and ready to rent or
+          sell.
+        </p>
+
+        <a
+          href="#"
+          class="group mt-8 w-full lg:w-fit max-lg:text-center inline-flex items-center cta-light__primary"
+          >See Features
+          <img
+            src="assets/logo/Arrow_Right_Light.svg"
+            alt=""
+            class="ml-1.5 w-4 h-4 group-hover:translate-x-1 transition"
+        /></a>
+
+        <fieldset class="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-2xl border border-slate-200 p-4 pb-8">
+            <figure
+              class="w-full aspect-video bg-slate-600 rounded-[10px] overflow-hidden"
+            >
+              <img
+                src="./assets/img/Property_Listings.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </figure>
+
+            <hgroup class="mt-8 flex justify-between items-center">
+              <h4 class="text-2xl font-light text-slate-900 w-fit">
+                Property Listings
+              </h4>
+            </hgroup>
+
+            <p class="mt-8 font font-light text-slate-600">
+              A list of properties that match the user's search criteria, with
+              details such as price, location, size, and photos.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 p-4 pb-8">
+            <figure
+              class="w-full aspect-video bg-slate-600 rounded-[10px] overflow-hidden"
+            >
+              <img
+                src="./assets/img/Virtual_Tours.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </figure>
+
+            <hgroup
+              class="mt-8 flex flex-wrap justify-between items-center gap-x-4 gap-y-2"
+            >
+              <h4
+                class="text-2xl font-light text-slate-900 w-fit whitespace-nowrap"
+              >
+                Virtual Tours
+              </h4>
+              <span class="custom__badge uppercase text-xs">Coming Soon</span>
+            </hgroup>
+
+            <p class="mt-8 font font-light text-slate-600">
+              Videos or 360-degree photos that allow users to take a virtual
+              tour of a property.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 p-4 pb-8">
+            <figure
+              class="w-full aspect-video bg-slate-600 rounded-[10px] overflow-hidden"
+            >
+              <img
+                src="./assets/img/Costumer_Reviews.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </figure>
+
+            <hgroup class="mt-8 flex justify-between items-center">
+              <h4 class="text-2xl font-light text-slate-900 w-fit">
+                Customer Reviews
+              </h4>
+            </hgroup>
+
+            <p class="mt-8 font font-light text-slate-600">
+              Reviews from previous customers that can help users evaluate the
+              quality of the service provided by the website or real estate
+              agents.
+            </p>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+
+    <article class="max-xl:px-0 p-16 pt-48 w-full bg-slate-100">
+      <div class="flex bg-slate-900">
+        <div class="-mt-12 w-3/4 h-12 bg-slate-900 rounded-t-3xl"></div>
+        <div class="w-1/4 h-12 bg-slate-100 rounded-bl-3xl"></div>
+      </div>
+
+      <div
+        class="bg-slate-900 rounded-tr-3xl rounded-b-3xl px-4 pt-12 pb-16 lg:py-24 sm:px-8 lg:px-12"
+      >
+        <section class="max-w-7xl mx-auto">
+          <h1
+            class="text-[2.25rem] sm:text-[3.75rem] lg:text-[2.25rem] xl:text-[3.75rem] leading-tight font-semibold text-slate-100"
+          >
+            Superior Features.
+          </h1>
+
+          <p
+            class="mt-8 text-slate-400 leading-relaxed sm:max-w-[75%] lg:max-w-[50%] text-lg font-light"
+          >
+            Explore the excellent features offered by our Company. Our services
+            are the solution for your problems.
+          </p>
+
+          <a
+            href="#"
+            class="group mt-8 w-full lg:w-fit max-lg:text-center inline-flex items-center cta-dark__primary"
+            >See Features
+            <img
+              src="assets/logo/Arrow_Right_Dark.svg"
+              alt=""
+              class="ml-1.5 w-4 h-4 group-hover:translate-x-1 transition"
+          /></a>
+        </section>
+      </div>
+    </article>
+
+    <article
+      id="features"
+      class="p-4 sm:p-8 lg:p-16 w-full bg-slate-100"
+    >
+      <section class="max-w-7xl mx-auto">
+        <h1
+          class="text-[2.25rem] sm:text-[3.75rem] lg:text-[2.25rem] xl:text-[3.75rem] leading-tight font-semibold"
+        >
+          Easy Administration
+        </h1>
+
+        <div class="mt-8 lg:mt-12 w-full border rounded-2xl p-6 pb-0 bg-white">
+          <h5 class="text-2xl font-light">Pay as you go.</h5>
+
+          <p class="mt-8 text-lg font-light text-slate-600 lg:max-w-[75%]">
+            Forget about upfront payments. No overpayment, no overspending, no
+            waste. No more worrying about expensive monthly or annual fees,
+            because we've got you covered with Pay as you go! Make it easier to
+            manage resources in your organization.
+          </p>
+
+          <figure
+            class="mt-12 p-6 pb-0 sm:p-10 sm:pb-0 bg-gradient-to-b from-sky-400 to-indigo-400 rounded-t-[14px]"
+          >
+            <img
+              src="./assets/img/Pay_as_you_go.png"
+              alt=""
+            />
+          </figure>
+        </div>
+
+        <fieldset class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="w-full border rounded-2xl p-6 bg-white">
+            <h5 class="text-2xl font-light">Multi Payment Gateway.</h5>
+
+            <p class="mt-8 text-lg font-light text-slate-600">
+              Enjoy the convenience of transacting with Multi Payment Gateway,
+              as you can choose the payment method that suits you best!
+            </p>
+
+            <figure
+              class="mt-12 p-6 pb-0 sm:p-10 sm:pb-0 bg-gradient-to-b from-sky-400 to-indigo-400 rounded-xl"
+            >
+              <img
+                src="./assets/img/Multi_Payment_Gateway.png"
+                alt=""
+                class="bg-white rounded-t-xl"
+              />
+            </figure>
+          </div>
+
+          <div class="w-full border rounded-2xl p-6 bg-white">
+            <h5 class="text-2xl font-light">Multi Platform Support.</h5>
+
+            <p class="mt-8 text-lg font-light text-slate-600">
+              With Multi Platform Support, feel free to access our apps and
+              websites from any device you want without any constraints!
+            </p>
+
+            <figure
+              class="mt-12 p-6 pb-0 sm:p-10 sm:pb-0 bg-gradient-to-b from-sky-400 to-indigo-400 rounded-xl"
+            >
+              <img
+                src="./assets/img/Multi_Platform_Support.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+
+    <article
+      class="p-4 sm:p-8 lg:p-16 pb-48 w-full bg-slate-100 shadow-[rgba(148,163,184,0.25)_0_1px_0_0]"
+    >
+      <section class="max-w-7xl mx-auto">
+        <h2
+          class="text-[1.875rem] sm:text-[3rem] lg:text-[1.875rem] xl:text-[3rem] leading-tight font-medium text-center"
+        >
+          Ready to be relied on anytime.
+        </h2>
+
+        <fieldset class="mt-8 grid grid-cols-1 xl:grid-cols-3 gap-x-8 gap-y-4">
+          <div class="w-full border rounded-2xl p-6 bg-white">
+            <h5 class="text-2xl font-light">On-Demand Service.</h5>
+
+            <p
+              class="mt-4 text-sm font-light text-slate-600 leading-relaxed lg:max-w-[75%] xl:max-w-none"
+            >
+              You can customize services for your specific requests. Whether you
+              need some specific real estate buildings, a specific contract, or
+              any other customization, we are here to help.
+            </p>
+          </div>
+
+          <div class="w-full border rounded-2xl p-6 bg-white">
+            <h5 class="text-2xl font-light">Responsive to Your Feedback.</h5>
+
+            <p
+              class="mt-4 text-sm font-light text-slate-600 leading-relaxed lg:max-w-[75%] xl:max-w-none"
+            >
+              Your feedback is important for us, so we can continuously improve
+              and adapt to your requests. We value your feedback and committed
+              to use it fot better service.
+            </p>
+          </div>
+
+          <div class="w-full border rounded-2xl p-6 bg-white">
+            <h5 class="text-2xl font-light">Reliable Service.</h5>
+
+            <p
+              class="mt-4 text-sm font-light text-slate-600 leading-relaxed lg:max-w-[75%] xl:max-w-none"
+            >
+              Our service is designed to be reliable and dependable, so you can
+              count on us to deliver high-quality service every time. Because
+              your needs are our responsibilities.
+            </p>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+
+    <article
+      id="awards"
+      class="mt-px p-4 sm:p-8 lg:p-16 pb-48 w-full bg-white shadow-[rgba(148,163,184,0.25)_0_1px_0_0]"
+    >
+      <section class="max-w-7xl mx-auto">
+        <h1
+          class="inline-flex text-[2.25rem] sm:text-[3.75rem] lg:text-[2.25rem] xl:text-[3.75rem] leading-tight font-semibold items-center gap-6"
+        >
+          Keep up to date
+          <a
+            href="#"
+            class="custom__badge text-base font-light"
+            >Visit our Blog</a
+          >
+        </h1>
+
+        <fieldset class="mt-8 grid grid-cols-1 xl:grid-cols-3 gap-x-8 gap-y-4">
+          <div class="w-full border rounded-2xl bg-white overflow-hidden">
+            <figure class="aspect-video bg-slate-600">
+              <img
+                src="./assets/img/Luxury_Housing_Development.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </figure>
+
+            <fieldset class="p-6 flex flex-col gap-8">
+              <h5 class="text-2xl font-light leading-relaxed">
+                The Rewards and Awards of Best Luxury Housing Development.
+              </h5>
+
+              <div class="inline-flex items-center gap-4">
+                <span class="font-light text-slate-400"> Company </span>
+
+                <div class="h-4 w-px bg-slate-400"></div>
+
+                <span class="font-light text-slate-400"> Van Estates </span>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="w-full border rounded-2xl bg-white overflow-hidden">
+            <figure class="aspect-video bg-slate-600">
+              <img
+                src="./assets/img/Property_Research.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </figure>
+
+            <fieldset class="p-6 flex flex-col gap-8">
+              <h5 class="text-2xl font-light leading-relaxed">
+                The Rewards and Awards of Best Property Research.
+              </h5>
+
+              <div class="inline-flex items-center gap-4">
+                <span class="font-light text-slate-400"> Company </span>
+
+                <div class="h-4 w-px bg-slate-400"></div>
+
+                <span class="font-light text-slate-400"> Van Estates </span>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="w-full border rounded-2xl bg-white overflow-hidden">
+            <figure class="aspect-video bg-slate-600">
+              <img
+                src="./assets/img/Real_Estate_Agency.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </figure>
+
+            <fieldset class="p-6 flex flex-col gap-8">
+              <h5 class="text-2xl font-light leading-relaxed">
+                The Rewards and Awards of Best Real Estate Agency.
+              </h5>
+
+              <div class="inline-flex items-center gap-4">
+                <span class="font-light text-slate-400"> Company </span>
+
+                <div class="h-4 w-px bg-slate-400"></div>
+
+                <span class="font-light text-slate-400"> Van Estates </span>
+              </div>
+            </fieldset>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+
+    <article id="schedule" class="mt-px p-4 sm:p-8 lg:p-16 pb-48 w-full bg-slate-100">
+      <section class="max-w-7xl mx-auto">
+        <h1
+          class="text-[2.25rem] sm:text-[3.75rem] lg:text-[2.25rem] xl:text-[3.75rem] leading-tight font-semibold"
+        >
+          Ready to take Us on your tour?
+        </h1>
+
+        <fieldset
+          class="mt-8 rounded-2xl bg-white border border-slate-200 flex flex-wrap lg:divide-x-[1px] max-lg:divide-y-[1px]"
+        >
+          <div class="w-full lg:w-1/2 border-slate-200 p-8">
+            <h4 class="text-2xl font-light">Schedule a call</h4>
+
+            <p class="mt-4 text-lg font-light text-slate-600">
+              We are gladly helping companies to get started.
+            </p>
+
+            <a
+              href="#"
+              class="cta-light__primary inline-block mt-16"
+              >Schedule a Call</a
+            >
+          </div>
+
+          <div class="w-full lg:w-1/2 border-slate-200 p-8">
+            <h4 class="text-2xl font-light">Try it out yourself</h4>
+
+            <p class="mt-4 text-lg font-light text-slate-600">
+              We have made it as easy as possible to try our apps.
+            </p>
+
+            <a
+              href="#"
+              class="group cta-light__primary inline-flex items-center mt-16"
+              >Documentation<img
+                src="assets/logo/Arrow_Right_Light.svg"
+                alt=""
+                class="ml-1.5 w-4 h-4 group-hover:translate-x-1 transition"
+            /></a>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+
+    <article
+      id="community"
+      class="mt-px w-full"
+    >
+      <section
+        class="bg-slate-900 rounded-tr-3xl rounded-t-3xl p-4 sm:p-8 sm:pb-16 lg:p-16 pt-24 pb-16 lg:pb-24 flex justify-center"
+      >
+        <hgroup
+          class="w-full max-w-7xl p-8 pb-16 pt-16 border border-slate-600 rounded-3xl bg-slate-800 flex flex-wrap"
+        >
+          <div class="w-full lg:w-5/12">
+            <h1
+              class="text-[1.875rem] sm:text-[3rem] lg:text-[1.875rem] xl:text-[3rem] leading-tight font-medium text-slate-100"
+            >
+              Join our Community
+            </h1>
+
+            <p class="mt-8 font-light text-lg text-slate-400">
+              Supported by a network of early advocates, contributors, and
+              champions.
+            </p>
+
+            <fieldset class="mt-8 flex flex-wrap items-center gap-2">
+              <a
+                href="#"
+                class="cta-dark__primary inline-flex items-center gap-2 max-sm:w-full max-sm:justify-center"
+              >
+                <img
+                  src="./assets/logo/Discord_Dark.svg"
+                  alt=""
+                />
+                Join our Discord</a
+              >
+              <a
+                href="#"
+                class="cta-dark__secondary inline-flex items-center gap-2 max-sm:w-full max-sm:justify-center"
+              >
+                <img
+                  src="./assets/logo/Github_Light.svg"
+                  alt=""
+                />
+                Star us on Github</a
+              >
+            </fieldset>
+          </div>
+        </hgroup>
+      </section>
+    </article>
+
+    <footer
+      class="px-4 sm:px-8 lg:px-16 pb-12 lg:pb-24 lg:pt-24 w-full bg-slate-900"
+    >
+      <article class="max-w-7xl mx-auto">
+        <section class="flex max-lg:flex-wrap items-center">
+          <hgroup class="shrink w-full flex flex-col max-lg:items-center">
+            <a
+              href="#"
+              class="font-medium text-xl text-slate-100 inline-flex items-center"
+            >
+              <img
+                src="./assets/logo/Logo_Light.svg"
+                alt="logo"
+                class="w-8 h-8 aspect-square mr-2.5"
+              />
+              Van Estates</a
+            >
+
+            <ul class="mt-6 lg:mt-8 flex gap-2.5">
+              <li
+                class="aspect-square w-8 rounded-lg bg-slate-800 border border-slate-600 hover:bg-slate-400/30 transition duration-300"
+              >
+                <a
+                  href=""
+                  target="_blank"
+                  class="p-1.5 flex"
+                >
+                  <img
+                    src="./assets/logo/Github_Light.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li
+                class="aspect-square w-8 rounded-lg bg-slate-800 border border-slate-600 hover:bg-slate-400/30 transition duration-300"
+              >
+                <a
+                  href=""
+                  target="_blank"
+                  class="p-1.5 flex"
+                >
+                  <img
+                    src="./assets/logo/Instagram_Light.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li
+                class="aspect-square w-8 rounded-lg bg-slate-800 border border-slate-600 hover:bg-slate-400/30 transition duration-300"
+              >
+                <a
+                  href=""
+                  target="_blank"
+                  class="p-1.5 flex"
+                >
+                  <img
+                    src="./assets/logo/Linkedin_Light.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li
+                class="aspect-square w-8 rounded-lg bg-slate-800 border border-slate-600 hover:bg-slate-400/30 transition duration-300"
+              >
+                <a
+                  href=""
+                  target="_blank"
+                  class="p-1.5 flex"
+                >
+                  <img
+                    src="./assets/logo/Youtube_Light.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li
+                class="aspect-square w-8 rounded-lg bg-slate-800 border border-slate-600 hover:bg-slate-400/30 transition duration-300"
+              >
+                <a
+                  href=""
+                  target="_blank"
+                  class="p-1.5 flex"
+                >
+                  <img
+                    src="./assets/logo/Discord_Light.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </hgroup>
+
+          <fieldset
+            class="max-lg:mt-16 rounded-3xl border border-slate-600 p-8 bg-slate-800 max-lg:w-full"
+          >
+            <p class="text-slate-400 font-light text-sm">
+              Subscribe for our newsletter and join the growing Van Estates
+              community.
+            </p>
+            <form
+              action=""
+              class="mt-4 flex max-lg:flex-col gap-x-6 gap-y-4"
+            >
+              <input
+                type="text"
+                class="px-4 py-2 rounded-lg bg-slate-900 border border-slate-600 placeholder:text-xs placeholder:font-light placeholder:text-slate-400"
+                placeholder="Abu Hamzah"
+              />
+              <input
+                type="email"
+                class="px-4 py-2 rounded-lg bg-slate-900 border border-slate-600 placeholder:text-xs placeholder:font-light placeholder:text-slate-400"
+                placeholder="mail@example.com"
+              />
+              <button
+                type="submit"
+                class="cta-dark__primary text-sm font-light"
+              >
+                Subscribe
+              </button>
+            </form>
+          </fieldset>
+        </section>
+
+        <hr class="border-slate-600 my-16" />
+
+        <section class="flex flex-wrap items-center justify-between">
+          <p class="text-slate-600 text-sm">&copy; 2023 Van Estates, Inc.</p>
+
+          <fieldset class="flex gap-4">
+            <a
+              href="#"
+              class="text-slate-600 text-sm hover:text-slate-100 transition duration-150"
+              >Terms of Service</a
+            >
+            <a
+              href="#"
+              class="text-slate-600 text-sm hover:text-slate-100 transition duration-150"
+              >Privacy & Cookies Policy</a
+            >
+          </fieldset>
+        </section>
+      </article>
+    </footer>
+  </body>
+
+  <script
+    type="module"
+    src="./main.js"
+  ></script>
+</html>
